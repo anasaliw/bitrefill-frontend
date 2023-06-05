@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.swal2-container.swal2-center > .swal2-popup {
+  background: #2b2b2b;
+  color: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  /* z-index: ; */
+  opacity: 1;
+  border-radius: 20px;
+  display: block;
+  background-color: white;
+  margin-right: 20px;
+  /* background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png)
+    no-repeat; */
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /* border: 1px solid green; */
+  -webkit-text-fill-color: white;
+  /* -webkit-box-shadow: 0 0 0px 1000px #000 inset; */
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* .css-yi4cki-MuiBadge-badge {
+  background-color: red !important;
+  font-size: 9px !important;
+  padding: 0px 0px !important;
+  min-width: 12px !important;
+  height: 11px !important;
+  border-radius: 21px !important;
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* .carousel.carousel-slider .control-arrow:hover {
+  background: transparent !important;
+}
+
+.css-13fo8vy-MuiPaper-root-MuiAccordion-root:before {
+  background: transparent !important;
+}
+
+.css-15s21gk-MuiPaper-root-MuiAccordion-root:before {
+  background: transparent !important;
+} */
+/* .css-11xxk8d-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  background-color: black !important;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,15 @@
+.radio_input {
+  display: none;
+}
+.radio_input:checked + .input_label {
+  /* display: none; */
+  background-color: yellow;
+  background: yellow;
+}
+
+.input_label {
+  width: 100%;
+  border: 1px solid red;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
